@@ -1,0 +1,4 @@
+filepath <- /Users/ogsteele/Library/Mobile Documents/com~apple~CloudDocs/DPhil/NeuroBlogger
+command <- cd Library/Mobile\ Documents/com~apple~CloudDocs/DPhil/NeuroBlogger
+            hugo server 
+            ctrl + c
