@@ -14,24 +14,24 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include neurophysiology, neurodegenerative diseases and stem cells.
 
 interests:
-- Applied Neurophysiology
-- Neurodegenerative Disorders
+- Neurophysiology
+- Neurodegeneration
 - Data Analysis
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: DPhil in Neuroscience
+    institution: University of Sussex
+    year: 2018-Present
+  - course: MPhil in Biosciences
+    institution: Cardiff University
+    year: 2018
+  - course: BSc (Hons) in Medical Sciences w/ Professional Training Year
+    institution: University of Exeter Medical School
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -40,16 +40,17 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
+  # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: mailto:o.steele@sussex.ac.uk
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/OGSteele
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ogsteele
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ogsteele/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,15 +60,12 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Editors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Oliver Steele is a DPhil candidate at the University of Sussex under the supervision of Dr Andrew Penn and Dr Ruth Murrell-Lagnado. Currently investigating the impact of APOE polymorphism on NMDA receptor mediated synaptic transmission, Oli also teaches on a range of undergraduate and masters level degree programmes on a range of topics including basic neuroscience, neurophysiology and statistics.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Previous research experience has seen Oli work on the use of stem cells in disease repair in a model of Huntington's Disease (with the European Consortium, Repair HD) and in disease modelling in a rare childhood epilepsy condition, as well as investigating glucose concentration manipulation in the hippocampus.

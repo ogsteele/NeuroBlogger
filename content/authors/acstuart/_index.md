@@ -17,9 +17,9 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Apolipoprotein E Physiology
-- Some 'behavioural' shit
-- Something else ... 
+- Apolipoprotein E
+- Behavioural Testing
+- Histology
 
 education:
   courses:

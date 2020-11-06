@@ -5,7 +5,7 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 68  # Order that this section will appear.
+weight = 120  # Order that this section will appear.
 
 title = "Meet the Team"
 subtitle = ""
@@ -38,6 +38,7 @@ subtitle = ""
   
   # Background image.
   image = "team.jpg"  # Name of image in `static/media/`.
+  # https://unsplash.com/photos/KdeqA3aTnBY, freely available, @DylanGillis
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_parallax = false
   
