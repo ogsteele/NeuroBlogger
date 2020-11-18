@@ -5,19 +5,33 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
-  weight = 10
+  weight = 1
+  identifier = "home"
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
+  name = "About"
+  url = "#about"
+  weight = 1
+  parent = "home"
+
+[[main]]
+  name = "Featured"
+  url = "#featured"
+  weight = 2
+  parent = "home"
+
+[[main]]
+  name = "Team"
+  url = "#people"
+  weight = 3
+  parent = "home"
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
-  
+  weight = 4
+  parent = "home"
+
 [[main]]
   name = "Blogger"
   url = "blogger/"

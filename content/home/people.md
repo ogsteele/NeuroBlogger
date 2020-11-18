@@ -40,7 +40,7 @@ subtitle = ""
   image = "team.jpg"  # Name of image in `static/media/`.
   # https://unsplash.com/photos/KdeqA3aTnBY, freely available, @DylanGillis
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_parallax = false
+  image_parallax = true
   
   # Text color (true=light or false=dark).
   # text_color_light = true  

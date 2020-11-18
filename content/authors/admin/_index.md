@@ -40,7 +40,7 @@ user_groups:
 
 This is the home of the NeuroBlogger team where you'll find the blog we curate. Feel free to look around, leave a like, or get in touch.
 
-Cheers, 
+Cheers, <br>
 Team NeuroBlogger
 
 <div>

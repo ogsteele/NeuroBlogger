@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
-title = "Contact"
+title = "Get in touch!"
 subtitle = ""
 
 # Automatically link email and phone?
@@ -17,6 +17,29 @@ autolink = true
 #   2: formspree.io
 email_form = 2
 
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+  
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  image = "team.jpg"  # Name of image in `static/media/`.
+  # https://unsplash.com/photos/KdeqA3aTnBY, freely available, @DylanGillis
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_parallax = true
+  
+  # Text color (true=light or false=dark).
+  # text_color_light = true  
+  
+  
 # Netlify form settings.
 [netlify]
   captcha = false  # Enable CAPTCHA challenge to reduce spam?

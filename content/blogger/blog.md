@@ -3,7 +3,7 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 2 # Order that this section will appear.
+weight = 3 # Order that this section will appear.
 
 title = "Blog"
 subtitle = ""
@@ -30,14 +30,14 @@ subtitle = ""
     name = "Welcome"
     tag = "welcome"
   [[content.filter_button]]
-    name = "Electrophysiology"
+    name = "Your brain and drugs"
     tag = "ephys"
   [[content.filter_button]]
-    name = "Statistics"
-    tag = "stats"
+    name = "Neuroscience in the News"
+    tag = "NeuroNews"
   [[content.filter_button]]
-    name = "Markdown"
-    tag = "markdown"
+    name = "Techniques in Neuroscience"
+    tag = "Techniques"
 
 
 [design]
