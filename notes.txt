@@ -1,4 +1,13 @@
 filepath <- /Users/ogsteele/Library/Mobile Documents/com~apple~CloudDocs/DPhil/NeuroBlogger
 command <- cd Library/Mobile\ Documents/com~apple~CloudDocs/DPhil/NeuroBlogger
-            hugo server 
+            hugo server
             ctrl + c
+
+
+[Link theme 1 >]({{< ref "theme_1_page/index.md" >}})
+
+**1.** Test menu can be created as it's own widget page
+**2.** Test themes can be added as their own folders and then referenced in the featured/pages widgets by changing the type of posts to the name of the folder that your blogs of that theme are stored in
+**3.** Seperate widget will be needed to then be added to view each theme on the menu page
+
+Homepage_featured_posts works a little differently to a normal featured posts sections. In this normal posts folder we can simply have a couple of posts we want to highlight on the home page. All other featured posts will work with the conventional featured tag

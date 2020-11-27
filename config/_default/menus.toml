@@ -21,6 +21,12 @@
   parent = "home"
 
 [[main]]
+  name = "Twitter"
+  url = "#twitter"
+  weight = 2
+  parent = "home"
+
+[[main]]
   name = "Team"
   url = "#people"
   weight = 3
@@ -33,9 +39,33 @@
   parent = "home"
 
 [[main]]
-  name = "Blogger"
-  url = "blogger/"
-  weight = 70
+  name = "NeuroBlog"
+  weight = 71
+  identifier = "blogmenu"
+
+[[main]]
+  name = "Start Here"
+  url = "blogmenu/"
+  weight = 71
+  parent = "blogmenu"
+
+[[main]]
+  name = "Theme 1"
+  url = "theme_1_page/"
+  weight = 72
+  parent = "blogmenu"
+
+[[main]]
+  name = "Theme 2"
+  url = "theme_2_page/"
+  weight = 73
+  parent = "blogmenu"
+
+[[main]]
+  name = "Theme 3"
+  url = "theme_3_page/"
+  weight = 73
+  parent = "blogmenu"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

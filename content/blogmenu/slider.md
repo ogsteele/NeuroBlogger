@@ -3,7 +3,7 @@
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 2  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
@@ -16,8 +16,8 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Ready to start reading?"
-  content = "Head straight over to the blog"
+  title = "Theme 1 Title"
+  content = "Theme 1 Subtitle"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -30,14 +30,14 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Neuroblog"
-  cta_url = "../blogmenu"
+  cta_label = "Theme 1"
+  cta_url = "../theme_1_page"
   cta_icon_pack = "fas"
   cta_icon = "book"
 
 [[item]]
-  title = "Stay up to date"
-  content = "Follow us on Twitter"
+  title = "Theme 2 Title"
+  content = "Theme 2 Subtitle"
   align = "center"
 
   overlay_color = "#555"  # An HTML color value.
@@ -48,14 +48,14 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Follow @BloggerNeuro"
-  cta_url = "https://twitter.com/BloggerNeuro?ref_src=twsrc%5Etfw"
+  cta_label = "Theme 2"
+  cta_url = "../theme_2_page"
   cta_icon_pack = "fab"
   cta_icon = "twitter"
 
 [[item]]
-  title = "Got an idea or comment?"
-  content = "Get in touch, we'd love to hear from you!"
+  title = "Theme 3 Title"
+  content = "Theme 3 Subtitle"
   align = "center"
 
   overlay_color = "#333"  # An HTML color value.
@@ -67,8 +67,8 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Get in touch!"
-  cta_url = "#contact"
+  cta_label = "Theme 3"
+  cta_url = "../theme_3_page"
   cta_icon_pack = "fas"
   cta_icon = "comments"
 +++

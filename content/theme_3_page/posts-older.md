@@ -1,28 +1,27 @@
 +++
-# A Featured Publications section created with the Featured Content widget.
-# This section displays publications from `content/post/` (as controlled by the "page_type" variable below) which have
-# `featured = true` in their front matter.
+# A Recent Blog Posts section created with the Pages widget.
+# This section displays recent blog posts from `content/post/`.
 
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 3  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = "Featured Posts"
+title = ""
 subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "homepage_featured_posts"
+  page_type = "theme_3_posts"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 14
+  
+  # Choose how many pages you would like to offset by
+  offset = 1
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
-
-  # Show a "See all pages" link underneath the featured content?
-  link_to_archive = false
 
   # Filter posts by a taxonomy term.
   [content.filters]
@@ -30,14 +29,22 @@ subtitle = ""
     category = ""
     publication_type = ""
     author = ""
-  
+    exclude_featured = false
+    
+  [content.archive]
+    enable = true
+    text = "See all blog posts"
+    link = "post/"
+    
 [design]
+  columns = "1"
+  
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -58,11 +65,8 @@ subtitle = ""
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
-  
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+
+[design.spacing]
+# Customize the section spacing. Order is top, right, bottom, left.
+padding = ["1.9rem", "0", "1.9rem", "0"]  
 +++
